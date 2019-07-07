@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c63d1ca4-8c90-4363-9c4c-84e88ac50674" name="Default" comment="" />
+    <list default="true" id="c63d1ca4-8c90-4363-9c4c-84e88ac50674" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longtao/test/ESTesst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longtao/test/ESTesst.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,20 +28,12 @@
       <file leaf-file-name="ESTesst.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/longtao/test/ESTesst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="102" selection-start-line="22" selection-start-column="102" selection-end-line="22" selection-end-column="102" />
+            <state relative-caret-position="354">
+              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2257#2273#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j2.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -74,6 +69,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -81,6 +79,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/longtao/test/Test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/longtao/test/ESTesst.java" />
       </list>
     </option>
@@ -111,6 +110,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -125,48 +125,6 @@
             <path>
               <item name="elasticsearch_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="elasticsearch_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elasticsearch_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elasticsearch_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elasticsearch_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elasticsearch_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="longtao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elasticsearch_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="longtao" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elasticsearch_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,20 +151,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ESTesst.getClient">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.longtao.test.Test" />
-      <module name="elasticsearch_demo" />
+  <component name="RunManager" selected="JUnit.ESTesst.createIndexByMap">
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ESTesst.createIndexByJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch_demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.longtao.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.longtao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.longtao.test.ESTesst" />
+      <option name="METHOD_NAME" value="createIndexByJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="ESTesst.createIndexByMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longtao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.longtao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.longtao.test.ESTesst" />
+      <option name="METHOD_NAME" value="createIndexByMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="ESTesst.createIndex_blog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elasticsearch_demo" />
@@ -221,6 +214,29 @@
       <option name="PACKAGE_NAME" value="com.longtao.test" />
       <option name="MAIN_CLASS_NAME" value="com.longtao.test.ESTesst" />
       <option name="METHOD_NAME" value="createIndex_blog" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ESTesst.deleteIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longtao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.longtao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.longtao.test.ESTesst" />
+      <option name="METHOD_NAME" value="deleteIndex" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -293,15 +309,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="JUnit.ESTesst.createIndex_blog" />
       <item itemvalue="JUnit.ESTesst.getClient" />
+      <item itemvalue="JUnit.ESTesst.deleteIndex" />
+      <item itemvalue="JUnit.ESTesst.createIndexByJson" />
+      <item itemvalue="JUnit.ESTesst.createIndexByMap" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ESTesst.getClient" />
+        <item itemvalue="JUnit.ESTesst.createIndexByMap" />
+        <item itemvalue="JUnit.ESTesst.createIndexByJson" />
         <item itemvalue="JUnit.ESTesst.createIndex_blog" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.ESTesst.deleteIndex" />
+        <item itemvalue="JUnit.ESTesst.getClient" />
       </list>
     </recent_temporary>
   </component>
@@ -315,23 +335,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562474501399</updated>
-      <workItem from="1562474503810" duration="3095000" />
+      <workItem from="1562474503810" duration="7328000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ESTesst_createIndex_blog - 2019.07.07 at 21h 33m 33s.xml">
-      <configuration name="ESTesst.createIndex_blog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESTesst_createIndex_blog - 2019.07.07 at 21h 34m 04s.xml">
-      <configuration name="ESTesst.createIndex_blog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESTesst_createIndex_blog - 2019.07.07 at 21h 34m 23s.xml">
-      <configuration name="ESTesst.createIndex_blog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESTesst_createIndex_blog - 2019.07.07 at 21h 34m 40s.xml">
-      <configuration name="ESTesst.createIndex_blog" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ESTesst_createIndex_blog - 2019.07.07 at 21h 34m 42s.xml">
       <configuration name="ESTesst.createIndex_blog" configurationId="JUnit" />
     </history-entry>
@@ -344,12 +352,40 @@
     <history-entry file="ESTesst_getClient - 2019.07.07 at 21h 36m 28s.xml">
       <configuration name="ESTesst.getClient" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ESTesst_deleteIndex - 2019.07.07 at 23h 13m 11s.xml">
+      <configuration name="ESTesst.deleteIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTesst_deleteIndex - 2019.07.07 at 23h 13m 20s.xml">
+      <configuration name="ESTesst.deleteIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTesst_deleteIndex - 2019.07.07 at 23h 13m 26s.xml">
+      <configuration name="ESTesst.deleteIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTesst_createIndex_blog - 2019.07.07 at 23h 13m 37s.xml">
+      <configuration name="ESTesst.createIndex_blog" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTesst_createIndexByJson - 2019.07.08 at 00h 19m 36s.xml">
+      <configuration name="ESTesst.createIndexByJson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTesst_createIndexByMap - 2019.07.08 at 00h 25m 31s.xml">
+      <configuration name="ESTesst.createIndexByMap" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3095000" />
+    <option name="totallyTimeSpent" value="7328000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -363,15 +399,15 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.47058824" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47058824" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32824427" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35511982" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35441658" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3293348" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17004265" />
       <window_info id="JRebel" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -395,6 +431,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/longtao.java">
@@ -429,6 +470,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/elasticsearch/elasticsearch/5.6.1/elasticsearch-5.6.1.jar!/org/elasticsearch/client/IndicesAdminClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="156" column="30" selection-start-line="156" selection-start-column="30" selection-end-line="156" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -438,10 +496,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/longtao/test/ESTesst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="102" selection-start-line="22" selection-start-column="102" selection-end-line="22" selection-end-column="102" />
+        <state relative-caret-position="354">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2257#2273#0" expanded="true" />
           </folding>
         </state>
       </provider>
