@@ -242,7 +242,6 @@ public class ESTesst {
         for (SearchHit hit: hits){
             System.out.println(hit.getSourceAsString());
         }
-
         client.close();
 
     }
