@@ -382,4 +382,43 @@ public class ESTesst {
         }
     }
 
+    /**
+     * 创建索引(插入数据)
+     */
+    @Test
+    public void kibana_data_generate(){
+        // 创建索引
+        client.admin().indices().prepareCreate("kibana_data").get();
+        // 插入文档数据
+        Map<String,Object> json = null;
+        IndexResponse indexResponse = null;
+        for (int i = 0; i <= 1000 ; i++) {
+            json = new HashMap<String, Object>();
+            json.put("id",i + "");
+            json.put("status_code",generateStatusCode() + "");
+            json.put("response_time",Math.random());
+            indexResponse = client.prepareIndex("kibana_data","access_log",i + "").setSource(json).execute().actionGet();
+        }
+    }
+
+    /**
+     * 随机状态码
+     * @return
+     */
+    public int generateStatusCode () {
+        int status_code = 0;
+        double randomNum = Math.random();
+        if (randomNum <= 0.7) {
+            status_code = 200;
+        } else if (randomNum <=0.8) {
+            status_code = 404;
+        } else if (randomNum <=0.95) {
+            status_code = 500;
+        } else {
+            status_code = 401;
+        }
+
+        return status_code;
+    }
+
 }
