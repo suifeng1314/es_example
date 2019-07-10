@@ -177,7 +177,7 @@ public class ESTesst {
         UpdateRequest updateRequest = new UpdateRequest();
         updateRequest.index("blog");
         updateRequest.type("article");
-        updateRequest.id("3");
+        updateRequest.id("1");
 
         updateRequest.doc(XContentFactory.jsonBuilder().startObject()
                     // 没有字段添加，已有字段替换(覆盖)
@@ -201,12 +201,25 @@ public class ESTesst {
      */
     @Test
     public void testUpsert() throws Throwable {
-        IndexRequest indexRequest = new IndexRequest("blog","article","5")
-                .source(XContentFactory.jsonBuilder().startObject()
-                        .field("titile","搜索服务器")
-                        .field("content").endObject());
-        UpdateRequest upsert = new UpdateRequest("blog","article","5")
-                .doc(XContentFactory.jsonBuilder().startObject().field("user","lt").endObject()).upsert(indexRequest);
+//        IndexRequest indexRequest = new IndexRequest("blog","article","5")
+//                .source(XContentFactory.jsonBuilder().startObject()
+//                        .field("titile","搜索服务器")
+//                        .field("content").endObject());
+//        UpdateRequest upsert = new UpdateRequest("blog","article","5")
+//                .doc(XContentFactory.jsonBuilder().startObject().field("user","lt").endObject()).upsert(indexRequest);
+//
+//        client.update(upsert).get();
+//        client.close();
+        // 设置查询条件, 查找不到则添加
+        IndexRequest indexRequest = new IndexRequest("blog", "article", "5")
+                .source(XContentFactory.jsonBuilder().startObject().field("title", "搜索服务器")
+                        .field("content",
+                                "它提供了一个分布式多用户能力的全文搜索引擎，基于RESTful web接口。Elasticsearch是用Java开发的，并作为Apache许可条款下的开放源码发布，是当前流行的企业级搜索引擎。设计用于云计算中，能够达到实时搜索，稳定，可靠，快速，安装使用方便。")
+                        .endObject());
+
+        // 设置更新, 查找到更新下面的设置
+        UpdateRequest upsert = new UpdateRequest("blog", "article", "5")
+                .doc(XContentFactory.jsonBuilder().startObject().field("user", "李四").endObject()).upsert(indexRequest);
 
         client.update(upsert).get();
         client.close();
@@ -218,7 +231,7 @@ public class ESTesst {
     @Test
     public void deleteData(){
         // 删除文档数据
-        DeleteResponse indexResponse = client.prepareDelete("blog","article","5").get();
+        DeleteResponse indexResponse = client.prepareDelete("blog","article","1").get();
 
         // 2 打印返回的结果
         System.out.println("index:" + indexResponse.getIndex());
