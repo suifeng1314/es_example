@@ -327,7 +327,7 @@ public class ESTesst {
         // 模糊查询
         SearchResponse searchResponse = client.prepareSearch("blog")
                 .setTypes("article")
-                .setQuery(QueryBuilders.fuzzyQuery("title","lucence")).get();
+                .setQuery(QueryBuilders.fuzzyQuery("title","搜")).get();
         SearchHits hits = searchResponse.getHits();
         System.out.println("查询到的结果：" + hits.getTotalHits() + "条");
         Iterator<SearchHit> iterator = hits.iterator();
