@@ -412,6 +412,7 @@ public class ESTesst {
             json.put("response_time",Math.random());
             indexResponse = client.prepareIndex("kibana_data","access_log",i + "").setSource(json).execute().actionGet();
         }
+        client.close();
     }
 
     /**
